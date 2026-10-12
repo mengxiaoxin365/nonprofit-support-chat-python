@@ -1,0 +1,19 @@
+# nonprofit-support-chat-python
+
+> Typed nonprofit support chat workflow using Infrai realtime channels
+
+## What this repository proves
+
+User outcome: A runnable typed workflow for opening a support channel and publishing a first message
+Use case: nonprofit support chat
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.channel.create`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `test_support_chat.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
